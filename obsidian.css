@@ -1,0 +1,100 @@
+/* Variables générales */
+body
+{
+    /* --bold-weight: var(--font-semibold); */
+    --bold-weight: var(--font-bold);
+}
+
+/* Couleurs du thème sombre */
+.theme-dark
+{
+    /* --text-normal: #dcddde; */
+    --text-normal:#ABB2BF;
+
+    /* --table-header-background:var(--table-background); */
+    --table-header-background:rgb(255,255,255,0.05);
+
+    /* --table-border-color:var(--background-modifier-border); */
+    --table-border-color:rgb(255,255,255,0.1);
+}
+
+
+
+/* titres */
+.HyperMD-header .cm-header-1,
+.HyperMD-header .cm-header-2,
+.HyperMD-header .cm-header-3,
+.HyperMD-header .cm-header-4,
+.HyperMD-header .cm-header-5,
+.HyperMD-header .cm-header-6
+{
+    color:var(--text-on-accent);
+}
+
+.cm-s-obsidian pre.HyperMD-codeblock,
+.cm-s-obsidian span.cm-inline-code,
+.cm-s-obsidian span.cm-math:not(.cm-formatting-math-begin):not(.cm-formatting-math-end),
+.markdown-preview-view code
+{
+    /* color: #98c379; */
+    color:var(--text-muted);
+
+    padding:2px;
+    border-radius: 5px;
+}
+
+
+
+/* Tableaux */
+.markdown-rendered table td,
+.markdown-rendered table thead th
+{
+    border:none;
+}
+
+.markdown-rendered table td
+{
+    border: none;
+    border-top:1px solid var(--table-border-color);
+}
+
+.markdown-rendered tbody tr,
+.markdown-rendered tbody tr:nth-child(odd) {
+    /* background-color: var(--table-row-alt-background); */
+    background-color: none;
+}
+
+.markdown-rendered table tbody tr:hover,
+.markdown-rendered tbody tr:nth-child(odd):hover
+{
+    background-color: var(--table-header-background);
+}
+
+.markdown-rendered table thead tr:hover
+{
+    background-color: var(--table-header-background);
+}
+
+
+
+/* Liens */
+.markdown-source-view.mod-cm6.is-live-preview .cm-hashtag.cm-meta,
+.markdown-source-view.mod-cm6 .cm-hmd-internal-link .cm-underline,
+.markdown-source-view.mod-cm6 .cm-link .cm-underline,
+.markdown-source-view.mod-cm6 .cm-url .cm-underline {
+    cursor: var(--cursor-link);
+
+    text-decoration: none;
+}
+
+.cm-s-obsidian span.cm-url
+{
+    /* text-decoration-line: var(--link-external-decoration); */
+    text-decoration: none;
+}
+
+.external-link 
+{
+    /* text-decoration-line: var(--link-external-decoration); */
+    text-decoration: none;
+}
