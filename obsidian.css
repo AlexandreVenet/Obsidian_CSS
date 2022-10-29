@@ -5,6 +5,14 @@ body
     --bold-weight: var(--font-bold);
 }
 
+
+/* Texte en gras */
+strong
+{
+    font-weight: var(--bold-weight);
+}
+
+
 /* Couleurs du thème sombre */
 .theme-dark
 {
