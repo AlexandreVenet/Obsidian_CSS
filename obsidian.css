@@ -24,6 +24,9 @@ strong
 
     /* --table-border-color:var(--background-modifier-border); */
     --table-border-color:rgb(255,255,255,0.1);
+    
+    /* --text-highlight-bg: rgba(255, 255, 0, 0.4); */
+    --text-highlight-bg: #375795;
 }
 
 
