@@ -7,5 +7,5 @@ Placer le fichier dans le répertoire `.obsidian/snippets/`.
 Pour explorer les styles de l'application, ouvrir la console avec le raccourci `CTRL MAJ I`.
 
 Paramètres spécifiques sous l'onglet **Apparence** :
-- police d etexte : Segoe UI,
+- police de texte : Segoe UI,
 - police monospace : Consolas.
