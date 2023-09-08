@@ -109,3 +109,11 @@ strong
     /* text-decoration-line: var(--link-external-decoration); */
     text-decoration: none;
 }
+
+
+
+/* Exclure les .ini de la liste des fichiers - non géré par le paramètre de l'app */
+.nav-file .nav-file-title[data-path*=".ini"]
+{
+    display: none;
+}
