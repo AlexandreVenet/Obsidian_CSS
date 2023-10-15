@@ -13,8 +13,8 @@ strong
 }
 
 
-/* Alignement du texte de paragraphe */
-.cm-line
+/* Alignement du texte de paragraphe (hors code) */
+.cm-line:not(.HyperMD-codeblock)
 {
     text-align: justify;
 }
