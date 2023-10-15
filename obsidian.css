@@ -13,6 +13,13 @@ strong
 }
 
 
+/* Alignement du texte de paragraphe */
+.cm-line
+{
+    text-align: justify;
+}
+
+
 /* Couleurs du thème sombre */
 .theme-dark
 {
